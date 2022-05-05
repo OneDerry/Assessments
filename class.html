@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin: 0 auto;
+            border: 4px solid green;
+            width: 80vw;
+            height: 50vh;
+            table-layout: fixed;
+            border-collapse: collapse;
+        }
+        thead, tfoot{ 
+            background-color: aqua;
+            text-transform: uppercase;
+            text-align: center;
+            text-shadow: 4px 1px 12px rgba(255, 0, 0, 0.568);
+        }
+        tbody tr:nth-of-type(even){
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <table border="2">
+        <thead>
+            <tr>
+                <th scope="col">days</th>
+                <th scope="col">morning</th>
+                <th scope="col">afternoon</th>
+                <th scope="col">night</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">monday</th>
+                <td>ghj</td>
+                <td>gujhb</td>
+                <td>yfjv</td>
+            </tr>
+            <tr>
+                <th scope="row">tuesday</th>
+                <td>v</td>
+                <td>bkhb</td>
+                <td>iygkb</td>
+            </tr>
+            <tr>
+                <th scope="row">wednesday</th>
+                <td>ihv</td>
+                <td>kbkj</td>
+                <td>kvbk</td>
+            </tr>
+            <tr>
+                <th scope="row">thursday</th>
+                <td>hkb</td>
+                <td>ug i</td>
+                <td>kjf</td>
+            </tr>
+            <tr>
+                <th scope="row">friday</th>
+                <td>hy</td>
+                <td>ughou</td>
+                <td>8tiugl</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>for the month of may</td>
+        </tfoot>
+    </table>
+</body>
+</html>
